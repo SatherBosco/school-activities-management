@@ -34,7 +34,9 @@
 
 1. Instalar o Git, configurar sua conta GitHub na máquina e clonar o repositório.
 
-[🔗 Link tutorial de git](https://www.freecodecamp.org/portuguese/news/tutorial-de-git-e-github-controle-de-versao-para-iniciantes/)
+[🔗 Link tutorial de instalação do git](https://www.freecodecamp.org/portuguese/news/tutorial-de-git-e-github-controle-de-versao-para-iniciantes/)
+
+[🔗 Link tutorial do básico de git (vídeo bem didático)](https://www.youtube.com/watch?v=ts-H3W1uLMM)
 
 2. Instalar o NodeJs, o VSCode e o Yarn Classic, abrir o projeto clonado no vscode e executar o comando `yarn` no terminal integrado para instalar as dependências.
 
@@ -47,7 +49,6 @@
 
 ### Recomendações de extensões do vscode
 
-- Astro by astro.build
 - GitLens by GitKraken
 - HTML CSS Support by ecmel
 - Prettier by Prettier
