@@ -26,10 +26,6 @@
   Banco de dados orientado a documentos  
   [🔗 Link](https://www.mongodb.com/pt-br)
 
-- **Yarn Classic:** ^1.22.1  
-  Gerenciador de pacotes do NodeJs  
-  [🔗 Documentação](https://classic.yarnpkg.com/en/)
-
 ### Como começar
 
 1. Instalar o Git, configurar sua conta GitHub na máquina e clonar o repositório.
@@ -38,14 +34,13 @@
 
 [🔗 Link tutorial do básico de git (vídeo bem didático)](https://www.youtube.com/watch?v=ts-H3W1uLMM)
 
-2. Instalar o NodeJs, o VSCode e o Yarn Classic, abrir o projeto clonado no vscode e executar o comando `yarn` no terminal integrado para instalar as dependências.
+2. Instalar o NodeJs e o VSCode, abrir o projeto clonado no vscode e executar o comando `npm install` no terminal integrado para instalar as dependências.
 
-[🔗 Link tutorial de vscode](https://www.youtube.com/watch?v=Po4d8Q2krcE)  
-[🔗 Link tutorial de Yarn](https://www.youtube.com/watch?v=JvsGQnGE-xg)
+[🔗 Link tutorial de vscode](https://www.youtube.com/watch?v=Po4d8Q2krcE)
 
 3. Preencher as variáveis de conexão do banco de dados no arquivo `.env`.
 
-4. Executar o comando `yarn start` para rodar o projeto.
+4. Executar o comando `npm run dev` para rodar o projeto.
 
 ### Recomendações de extensões do vscode
 
