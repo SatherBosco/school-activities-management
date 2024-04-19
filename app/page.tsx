@@ -18,11 +18,11 @@ export default function Home() {
                 <Image className={styles.cabecalhoMenuImagem2} src={Group2} alt="Logo 2"/>
             </div>
             <div className={styles.cabecalhoMenuLinks}>
-                <a className={styles.cabecalhoMenuLinks1} href="assets/html/lancar_notas.html">Lançar notas</a>
+                <a className={styles.cabecalhoMenuLinks1} href="../app/Lancar_Notas/page.tsx">Lançar notas</a>
                 <Image className={styles.cabecalhoMenuLinksBarra1} src={Rectangle4} alt="Barra de separação"/>
-                <a className={styles.cabecalhoMenuLinks2} href="assets/html/cadastro.html">Cadastro</a>
+                <a className={styles.cabecalhoMenuLinks2} href="../app/Cadastro/page.tsx">Cadastro</a>
                 <Image className={styles.cabecalhoMenuLinksBarra2} src={Rectangle5} alt="Barra de separação"/>
-                <a className={styles.cabecalhoMenuLinks3} href="assets/html/analise.html">Análise</a>
+                <a className={styles.cabecalhoMenuLinks3} href="../app/Analise/page.tsx">Análise</a>
             </div>
             <div>
                 <a href="app/SignIn/page.tsx"><button className={styles.cabecalhoMenuBotao}>Trocar Usuário</button></a>
