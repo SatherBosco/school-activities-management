@@ -1,0 +1,190 @@
+.cabecalho {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background-color: #FFFFFF;
+}
+
+.cabecalhoMenu {
+  /* Navbar */
+  position: relative;
+  width: 1440px;
+  height: 96px;
+  left: 0px;
+  top: 0px;
+}
+
+.cabecalhoMenuImagem {
+  /* Logo */
+  position: absolute;
+  height: 43.09px;
+  left: 11.11%;
+  right: 79.41%;
+  top: calc(50% - 43.09px/2 - 0.45px);
+}
+
+.cabecalhoMenuImagem1 {
+  /* graphics */
+  position: absolute;
+  left: 0%;
+  right: 76.56%;
+  top: 0%;
+  bottom: 0%;
+}
+
+.cabecalhoMenuImagem2 {
+  /* Group 2 */
+  position: absolute;
+  left: 25.64%;
+  right: -0.37%;
+  top: 6.96%;
+  bottom: 8.34%;
+}
+
+.cabecalhoMenuLinks {
+  /* Group 3 */
+  position: absolute;
+  width: 367px;
+  height: 30px;
+  left: 362px;
+  top: 36px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  position: absolute;
+  left: 25.14%;
+  right: 66.71%;
+  top: 42.71%;
+  bottom: 33.33%;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+}
+
+.cabecalhoMenuLinksBarra1 {
+  /* Rectangle 4 */
+  position: relative;
+  left: 0%;
+  right: 64.9%;
+  top: -5px;
+  bottom: 31.25%;
+  background: #D9D9D9;
+  border-radius: 100px;
+}
+
+.cabecalhoMenuLinksBarra2 {
+  /* Rectangle 5 */
+  position: relative;
+  left: 0%;
+  right: 55.71%;
+  top: -5px;
+  bottom: 31.25%;
+  background: #D9D9D9;
+  border-radius: 100px;
+}
+
+.cabecalhoMenuBotao {
+  /* btn - login */
+  position: absolute;
+  width: 160px;
+  height: 34px;
+  left: 1120px;
+  top: 31px;
+     
+  filter: drop-shadow(-4px 4px 6px rgba(0, 0, 0, 0.25));
+  /* Login */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #FFFFFF;
+  background-color: #1FD6FF;
+  border-radius: 8px;
+}
+
+.cabecalhoMenuBotao:hover {
+  background-color: #AFF5FF;
+  cursor: pointer;
+}
+
+.conteudo {
+  /* Home */
+  position: relative;
+  /*width: 1440px;
+  height: 1024px;*/
+  width:100%;
+  height:1024px;
+  
+  background: rgba(175, 245, 255, 0.5);
+}
+
+.conteudoBanner {
+  /* flat-lay-laptop-blue-background 1 */
+  position: relative;
+  width: 1120px;
+  height: 384px;
+  left: 160px;
+  top: 160px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 28px;
+}
+
+.conteudoLogo {
+  /* Logo */
+  position: absolute;
+  height: 53.87px;
+  left: 650px;
+  right: 41.46%;
+  top: 190px;
+  /*top: calc(50% - 53.87px/2 - 122.45px);*/
+}
+
+.conteudoTexto {
+  /* Conectando o presente à excelência do futuro educacional. */
+  position: absolute;
+  width: 534px;
+  height: 76px;
+  left: 660px;
+  top: 310px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.rodape {
+  /* Footer */
+  position: absolute;
+  /*width: 1440px;*/
+  width: 100%;
+  height: 144px;
+  left: 0px;
+  top: 880px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: #FFFFFF;
+}
+
+.rodapeImagem {
+  /* Group 4 */
+  position: absolute;
+  left: 44.1%;
+  right: 44.05%;
+  top: 23.61%;
+  bottom: 25.43%;
+}
