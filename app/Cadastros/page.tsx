@@ -18,13 +18,13 @@ export default function Home() {
                 <Image className={styles.cabecalhoMenuImagem2} src={Group2} alt="Logo 2"/>
             </div>
             <div className={styles.cabecalhoMenuLinks}>
-                <a className={styles.cabecalhoMenuLinks1} href="../app/Cadastro_Professores/cadastro_professores.tsx">Professores</a>
+                <a className={styles.cabecalhoMenuLinks1} href="../app/Cadastro_Professores/page.tsx">Professores</a>
                 <Image className={styles.cabecalhoMenuLinksBarra1} src={Rectangle4} alt="Barra de separação"/>
-                <a className={styles.cabecalhoMenuLinks2} href="../app/Cadastro_Alunos/cadastro_alunos.tsx">Alunos</a>
+                <a className={styles.cabecalhoMenuLinks2} href="../app/Cadastro_Alunos/page.tsx">Alunos</a>
                 <Image className={styles.cabecalhoMenuLinksBarra2} src={Rectangle5} alt="Barra de separação"/>
-                <a className={styles.cabecalhoMenuLinks3} href="../app/Cadastro_Turmas/cadastro_turmas.tsx">Turmas</a>
+                <a className={styles.cabecalhoMenuLinks3} href="../app/Cadastro_Turmas/page.tsx">Turmas</a>
                 <Image className={styles.cabecalhoMenuLinksBarra1} src={Rectangle4} alt="Barra de separação"/>
-                <a className={styles.cabecalhoMenuLinks2} href="../app/Cadastro_Provas/cadastro_provas.tsx">Provas</a>
+                <a className={styles.cabecalhoMenuLinks2} href="../app/Cadastro_Provas/page.tsx">Provas</a>
             </div>
             <div>
                 <a href="./"><button className={styles.cabecalhoMenuBotao}>Home</button></a>
