@@ -99,9 +99,10 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
-  display: flex;
+  text-align: center;
+  /*display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center;*/
   color: #FFFFFF;
   background-color: #1FD6FF;
   border-radius: 8px;
@@ -118,22 +119,57 @@
   /*width: 1440px;
   height: 1024px;*/
   width:100%;
-  height:1024px;
+  height: 720px;
   
-  background: rgba(175, 245, 255, 0.5);
+  background: #78afb8;
 }
 
-.conteudoBanner {
-  /* flat-lay-laptop-blue-background 1 */
+.cardProfessor {
+  /* Card-professor */
   position: relative;
-  width: 1120px;
-  height: 384px;
-  left: 160px;
+  width: 250px;
+  height: 200px;
+  left: 150px;
   top: 160px;
+  border-radius: 25px;
+  /*background: #FFFFFF;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);*/
+}
 
-  background: #FFFFFF;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 28px;
+.cardTurma {
+  /* Card-turma */
+  position: relative;
+  width: 250px;
+  height: 200px;
+  left: 180px;
+  top: 160px;
+  border-radius: 25px;
+  /*background: #FFFFFF;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);*/
+}
+
+.cardAluno {
+  /* Card-aluno */
+  position: relative;
+  width: 250px;
+  height: 200px;
+  left: 210px;
+  top: 160px;
+  border-radius: 25px;
+  /*background: #FFFFFF;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);*/
+}
+
+.cardProva {
+  /* Card-prova */
+  position: relative;
+  width: 250px;
+  height: 200px;
+  left: 240px;
+  top: 160px;
+  border-radius: 25px;
+  /*background: #FFFFFF;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);*/
 }
 
 .conteudoLogo {
@@ -168,7 +204,7 @@
 
 .rodape {
   /* Footer */
-  position: absolute;
+  position: sticky;
   /*width: 1440px;*/
   width: 100%;
   height: 144px;

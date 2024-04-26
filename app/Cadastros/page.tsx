@@ -6,6 +6,10 @@ import Rectangle5 from "../../assets/img/Rectangle 5.png";
 import flatlay from "../../assets/img/flat-lay-laptop-blue-background 1.png";
 import Logo2 from "../../assets/img/Logo2.png";
 import Group4 from "../../assets/img/Group 4.png";
+import Aluno from "../../assets/img/Card-aluno.png";
+import Professor from "../../assets/img/Card-professor.png";
+import Turma from "../../assets/img/Card-turma.png";
+import Prova from "../../assets/img/Card-prova.png";
 import Image from "next/image";
 
 export default function Home() {
@@ -18,24 +22,25 @@ export default function Home() {
                 <Image className={styles.cabecalhoMenuImagem2} src={Group2} alt="Logo 2"/>
             </div>
             <div className={styles.cabecalhoMenuLinks}>
-                <a className={styles.cabecalhoMenuLinks1} href="../app/Cadastro_Professores/page.tsx">Professores</a>
+                <a className={styles.cabecalhoMenuLinks1} href="../app/Cadastro_Professores/page.tsx">Lançar notas</a>
                 <Image className={styles.cabecalhoMenuLinksBarra1} src={Rectangle4} alt="Barra de separação"/>
-                <a className={styles.cabecalhoMenuLinks2} href="../app/Cadastro_Alunos/page.tsx">Alunos</a>
+                <a className={styles.cabecalhoMenuLinks2} href="../app/Cadastro_Alunos/page.tsx">Cadastro</a>
                 <Image className={styles.cabecalhoMenuLinksBarra2} src={Rectangle5} alt="Barra de separação"/>
-                <a className={styles.cabecalhoMenuLinks3} href="../app/Cadastro_Turmas/page.tsx">Turmas</a>
-                <Image className={styles.cabecalhoMenuLinksBarra1} src={Rectangle4} alt="Barra de separação"/>
-                <a className={styles.cabecalhoMenuLinks2} href="../app/Cadastro_Provas/page.tsx">Provas</a>
+                <a className={styles.cabecalhoMenuLinks3} href="../app/Cadastro_Turmas/page.tsx">Análise</a>
             </div>
             <div>
-                <a href="./"><button className={styles.cabecalhoMenuBotao}>Home</button></a>
+                <a href="./"><button className={styles.cabecalhoMenuBotao}>Trocar Usuário</button></a>
             </div>    
         </nav>
     </header>
 
     <main className={styles.conteudo}>
-        <Image className={styles.conteudoBanner} src={flatlay} alt="Banner Bem-vindo"/>
-        <Image className={styles.conteudoLogo} src={Logo2} alt="Banner Bem-vindo"/>
-        <p className={styles.conteudoTexto}>Conectando o presente à excelência do futuro educacional.</p>
+        <button className={styles.botaoProfessor}>
+            <Image className={styles.cardProfessor} src={Professor} alt="Banner Bem-vindo" />
+        </button>
+        <Image className={styles.cardTurma} src={Turma} alt="Banner Bem-vindo" />
+        <Image className={styles.cardAluno} src={Aluno} alt="Banner Bem-vindo" />
+        <Image className={styles.cardProva} src={Prova} alt="Banner Bem-vindo" />
     </main>
 
     <footer className={styles.rodape}>
