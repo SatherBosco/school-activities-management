@@ -35,9 +35,7 @@ export default function Home() {
     </header>
 
     <main className={styles.conteudo}>
-        <button className={styles.botaoProfessor}>
-            <Image className={styles.cardProfessor} src={Professor} alt="Banner Bem-vindo" />
-        </button>
+        <Image className={styles.cardProfessor} src={Professor} alt="Banner Bem-vindo" />
         <Image className={styles.cardTurma} src={Turma} alt="Banner Bem-vindo" />
         <Image className={styles.cardAluno} src={Aluno} alt="Banner Bem-vindo" />
         <Image className={styles.cardProva} src={Prova} alt="Banner Bem-vindo" />
