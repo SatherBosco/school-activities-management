@@ -138,6 +138,11 @@
   flex-direction: column;
   }
 
+  .botaoProfessor:hover {
+    background-color: #AFF5FF;
+    cursor: pointer;
+  }
+
 .botaoTurma {
   /* Card-turma */
   position: relative;
@@ -153,6 +158,11 @@
   flex-direction: column;
   /*background: #FFFFFF;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);*/
+}
+
+.botaoTurma:hover {
+  background-color: #AFF5FF;
+  cursor: pointer;
 }
 
 .botaoAluno {
@@ -172,6 +182,11 @@
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);*/
 }
 
+.botaoAluno:hover {
+  background-color: #AFF5FF;
+  cursor: pointer;
+}
+
 .botaoProva {
   /* Card-prova */
   position: relative;
@@ -187,6 +202,11 @@
   flex-direction: column;
   /*background: #FFFFFF;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);*/
+}
+
+.botaoProva:hover {
+  background-color: #AFF5FF;
+  cursor: pointer;
 }
 
 .rodape {

@@ -39,23 +39,29 @@ export default function Cadastro() {
     </header>
 
     <main className={styles.conteudo}>
-        <div className={styles.botaoProfessor}>
-
-            <Image src={ProfessorIcon} alt="Banner Bem-vindo" />
-            <Image src={Professor} alt="Banner Bem-vindo" />
-    
+        <div>
+            <button className={styles.botaoProfessor}>
+                <Image src={ProfessorIcon} alt="Banner Bem-vindo" />
+                <Image src={Professor} alt="Banner Bem-vindo" />
+            </button>
         </div>
-        <div className={styles.botaoAluno}>
-            <Image src={AlunoIcon} alt="Banner Bem-vindo" />
-            <Image src={aluno} alt="Banner Bem-vindo" />
+        <div >
+            <button className={styles.botaoAluno}>
+                <Image src={AlunoIcon} alt="Banner Bem-vindo" />
+                <Image src={aluno} alt="Banner Bem-vindo" />
+            </button>
         </div>
-        <div className={styles.botaoTurma}>
-            <Image src={TurmaIcon} alt="Banner Bem-vindo" />
-            <Image src={Turma} alt="Banner Bem-vindo" />
+        <div>
+            <button className={styles.botaoTurma}>
+                <Image src={TurmaIcon} alt="Banner Bem-vindo" />
+                <Image src={Turma} alt="Banner Bem-vindo" />
+            </button>
         </div>
-        <div className={styles.botaoProva}>
-            <Image src={ProvaIcon} alt="Banner Bem-vindo" />
-            <Image src={Prova} alt="Banner Bem-vindo" />
+        <div>
+            <button className={styles.botaoProva}>
+                <Image src={ProvaIcon} alt="Banner Bem-vindo" />
+                <Image src={Prova} alt="Banner Bem-vindo" />
+            </button>
         </div>
     </main>
 
