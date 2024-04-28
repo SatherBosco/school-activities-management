@@ -6,13 +6,17 @@ import Rectangle5 from "../../assets/img/Rectangle 5.png";
 import flatlay from "../../assets/img/flat-lay-laptop-blue-background 1.png";
 import Logo2 from "../../assets/img/Logo2.png";
 import Group4 from "../../assets/img/Group 4.png";
-import Aluno from "../../assets/img/Card-aluno.png";
-import Professor from "../../assets/img/Card-professor.png";
-import Turma from "../../assets/img/Card-turma.png";
-import Prova from "../../assets/img/Card-prova.png";
+import AlunoIcon from "../../assets/img/icon-aluno.png";
+import aluno from "../../assets/img/aluno.png"
+import ProfessorIcon from "../../assets/img/icon-professor.png";
+import Professor from "../../assets/img/professor.png"
+import TurmaIcon from "../../assets/img/icon-turma.png";
+import Turma from "../../assets/img/turma.png";
+import ProvaIcon from "../../assets/img/icon-prova.png";
+import Prova from "../../assets/img/prova.png"
 import Image from "next/image";
 
-export default function Home() {
+export default function Cadastro() {
   return (
     <>
     <header className={styles.cabecalho}>
@@ -35,10 +39,24 @@ export default function Home() {
     </header>
 
     <main className={styles.conteudo}>
-        <Image className={styles.cardProfessor} src={Professor} alt="Banner Bem-vindo" />
-        <Image className={styles.cardTurma} src={Turma} alt="Banner Bem-vindo" />
-        <Image className={styles.cardAluno} src={Aluno} alt="Banner Bem-vindo" />
-        <Image className={styles.cardProva} src={Prova} alt="Banner Bem-vindo" />
+        <div className={styles.botaoProfessor}>
+
+            <Image src={ProfessorIcon} alt="Banner Bem-vindo" />
+            <Image src={Professor} alt="Banner Bem-vindo" />
+    
+        </div>
+        <div className={styles.botaoAluno}>
+            <Image src={AlunoIcon} alt="Banner Bem-vindo" />
+            <Image src={aluno} alt="Banner Bem-vindo" />
+        </div>
+        <div className={styles.botaoTurma}>
+            <Image src={TurmaIcon} alt="Banner Bem-vindo" />
+            <Image src={Turma} alt="Banner Bem-vindo" />
+        </div>
+        <div className={styles.botaoProva}>
+            <Image src={ProvaIcon} alt="Banner Bem-vindo" />
+            <Image src={Prova} alt="Banner Bem-vindo" />
+        </div>
     </main>
 
     <footer className={styles.rodape}>

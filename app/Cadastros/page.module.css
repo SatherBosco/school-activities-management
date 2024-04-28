@@ -116,90 +116,77 @@
 .conteudo {
   /* Home */
   position: relative;
+  background: #78afb8;
   /*width: 1440px;
   height: 1024px;*/
   width:100%;
   height: 720px;
-  
-  background: #78afb8;
+  display: flex;
 }
 
-.cardProfessor {
-  /* Card-professor */
+.botaoProfessor {
   position: relative;
+  background-color: #1FD6FF;
   width: 250px;
   height: 200px;
-  left: 150px;
+  margin-left: 170px;
   top: 160px;
   border-radius: 25px;
-  /*background: #FFFFFF;
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);*/
-}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  }
 
-.cardTurma {
+.botaoTurma {
   /* Card-turma */
   position: relative;
+  background-color: #1FD6FF;
   width: 250px;
   height: 200px;
-  left: 180px;
+  margin-left: 10px;
   top: 160px;
   border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   /*background: #FFFFFF;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);*/
 }
 
-.cardAluno {
+.botaoAluno {
   /* Card-aluno */
   position: relative;
+  background-color: #1FD6FF;
   width: 250px;
   height: 200px;
-  left: 210px;
+  margin-left: 10px;
   top: 160px;
   border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   /*background: #FFFFFF;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);*/
 }
 
-.cardProva {
+.botaoProva {
   /* Card-prova */
   position: relative;
+  background-color: #1FD6FF;
   width: 250px;
   height: 200px;
-  left: 240px;
+  margin-left: 10px;
   top: 160px;
   border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   /*background: #FFFFFF;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);*/
-}
-
-.conteudoLogo {
-  /* Logo */
-  position: absolute;
-  height: 53.87px;
-  left: 650px;
-  right: 41.46%;
-  top: 190px;
-  /*top: calc(50% - 53.87px/2 - 122.45px);*/
-}
-
-.conteudoTexto {
-  /* Conectando o presente à excelência do futuro educacional. */
-  position: absolute;
-  width: 534px;
-  height: 76px;
-  left: 660px;
-  top: 310px;
-
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 38px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-
-  color: #FFFFFF;
 }
 
 .rodape {
@@ -207,9 +194,9 @@
   position: sticky;
   /*width: 1440px;*/
   width: 100%;
-  height: 144px;
+  height: 110px;
   left: 0px;
-  top: 880px;
+  bottom: 0px;
   display: flex;
   flex-direction: row;
   justify-content: center;
