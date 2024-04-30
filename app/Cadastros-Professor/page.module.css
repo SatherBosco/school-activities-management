@@ -1,3 +1,4 @@
+
 .cabecalho {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   background-color: #FFFFFF;
@@ -90,8 +91,7 @@
   width: 160px;
   height: 34px;
   left: 1120px;
-  top: 31px;
-     
+  top: 31px;  
   filter: drop-shadow(-4px 4px 6px rgba(0, 0, 0, 0.25));
   /* Login */
   font-family: 'Roboto';
@@ -113,100 +113,141 @@
   cursor: pointer;
 }
 
-.conteudo {
-  /* Home */
-  position: relative;
-  background: #78afb8;
-  /*width: 1440px;
-  height: 1024px;*/
-  width:100%;
-  height: 720px;
-  display: flex;
-}
-
-.botaoProfessor {
-  position: relative;
-  background-color: #1FD6FF;
-  width: 250px;
-  height: 200px;
-  margin-left: 170px;
-  top: 160px;
-  border-radius: 25px;
+.main {
+  width: 100%;
+  height: 1000px;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  }
-
-  .botaoProfessor:hover {
-    background-color: #AFF5FF;
-    cursor: pointer;
-  }
-
-.botaoTurma {
-  /* Card-turma */
-  position: relative;
-  background-color: #1FD6FF;
-  width: 250px;
-  height: 200px;
-  margin-left: 10px;
-  top: 160px;
-  border-radius: 25px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  /*background: #FFFFFF;
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);*/
+  background: #0c0ce94d;
 }
 
-.botaoTurma:hover {
-  background-color: #AFF5FF;
+.container {
+  width: 53%;
+  height: 870px;
+  display: flex;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+  
+}
+
+.form {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 3rem;
+}
+
+.formHeader {
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  color: #000000;
+}
+
+.voltarButton {
+  display: flex;
+  align-items: center;
+}
+
+.voltarButton button {
+  border: none;
+  background-color: #1FD6FF;
+  padding: 0.4rem 1rem;
+  border-radius: 5px;
   cursor: pointer;
 }
 
-.botaoAluno {
-  /* Card-aluno */
-  position: relative;
-  background-color: #1FD6FF;
-  width: 250px;
-  height: 200px;
-  margin-left: 10px;
-  top: 160px;
-  border-radius: 25px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  /*background: #FFFFFF;
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);*/
+.voltarButton button:hover {
+  background-color: #AFF5FF;
 }
 
-.botaoAluno:hover {
-  background-color: #AFF5FF;
+.voltarButton button a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #fff;
+}
+
+.formHeader h1::after {
+  content: '';
+  display: block;
+  width: 5rem;
+  height: 0.3rem;
+  background-color: #1FD6FF;
+  margin: 0 auto;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.1rem;
+  
+}
+
+.inputBox input {
+  margin: 0.6rem 0;
+  padding: 0.6rem 15rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px #0000001c;
+  font-size: 0.8rem;
+  background-color: #c0bebe;
+  color: #000000;
+}
+
+.inputBox input:hover {
+  background-color: #eeeeee75;
+}
+
+.inputBox input:focus-visible {
+  outline: 1px solid #1FD6FF;
+}
+
+.inputBox label,
+.genderTitle h6 {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #000000c0;
+}
+
+.inputBox input::placeholder {
+  color: #000000be;
+}
+
+
+.cadastrarButton button {
+  width: 100%;
+  margin-top: 2.5rem;
+  border: none;
+  background-color: #1FD6FF;
+  padding: 0.62rem;
+  border-radius: 5px;
   cursor: pointer;
 }
 
-.botaoProva {
-  /* Card-prova */
-  position: relative;
-  background-color: #1FD6FF;
-  width: 250px;
-  height: 200px;
-  margin-left: 10px;
-  top: 160px;
-  border-radius: 25px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  /*background: #FFFFFF;
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);*/
+.cadastrarButton button:hover {
+  background-color: #AFF5FF;
 }
 
-.botaoProva:hover {
-  background-color: #AFF5FF;
-  cursor: pointer;
+.cadastrarButton button a {
+  text-decoration: none;
+  font-size: 0.93rem;
+  font-weight: 500;
+  color: #fff;
 }
 
 .rodape {
@@ -214,9 +255,9 @@
   position: sticky;
   /*width: 1440px;*/
   width: 100%;
-  height: 110px;
+  height: 144px;
   left: 0px;
-  bottom: 0px;
+  top: 880px;
   display: flex;
   flex-direction: row;
   justify-content: center;
