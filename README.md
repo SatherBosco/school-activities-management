@@ -50,8 +50,8 @@
 
 ### Arquitetura do projeto
 
-Em breve.
+Em breve
 
 ### Modelagem do banco de dados
 
-Em breve.
+Em breve
